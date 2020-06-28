@@ -26,6 +26,6 @@ class detailHeaderView: UICollectionReusableView{
         pictureImageView.fillSuperView()
     }
     required init?(coder: NSCoder) {
-            fatalError( "Deu ruim")
+          fatalError("init(coder:) has not been implemented")
     }
 }

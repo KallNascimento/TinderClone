@@ -165,6 +165,16 @@ class VcCombine: UIViewController
         let detailView = detailViewController()
         detailView.user = user
         detailView.modalPresentationStyle = .fullScreen
+        detailView.callback = {(user,Action) in
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5){
+                if Action == .deslike {
+                    self.deslikeClick()
+                }else{
+                    self.likeClick()
+                }
+                
+            }
+        }
         self.present(detailView, animated: true, completion: nil)
     }
     

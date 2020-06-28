@@ -59,7 +59,7 @@
 		2E4FAAC124A11D49007E07E1 /* uiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiButton.swift; sourceTree = "<group>"; };
 		2E6108CE24A2A99D0011B6D6 /* viewControllerMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerMatch.swift; sourceTree = "<group>"; };
 		2E86811D24A26B3800C49870 /* loadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingView.swift; sourceTree = "<group>"; };
-		2E8A282F249C1776002D14B1 /* Ugly Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ugly Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8A282F249C1776002D14B1 /* Tinder Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinder Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8A2832249C1776002D14B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E8A2834249C1776002D14B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E8A2836249C1776002D14B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		2E8A2830249C1776002D14B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E8A282F249C1776002D14B1 /* Ugly Filter.app */,
+				2E8A282F249C1776002D14B1 /* Tinder Clone.app */,
 				2E8A2845249C1794002D14B1 /* uglyFilterTests.xctest */,
 				2E8A2850249C1794002D14B1 /* uglyFilterUITests.xctest */,
 			);
@@ -234,7 +234,7 @@
 			);
 			name = uglyFilter;
 			productName = uglyFilter;
-			productReference = 2E8A282F249C1776002D14B1 /* Ugly Filter.app */;
+			productReference = 2E8A282F249C1776002D14B1 /* Tinder Clone.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2E8A2844249C1794002D14B1 /* uglyFilterTests */ = {
@@ -546,8 +546,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.knsolucoes.uglyFilter;
-				PRODUCT_NAME = "Ugly Filter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knsolucoes.tinderClone;
+				PRODUCT_NAME = "Tinder Clone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -564,8 +564,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.knsolucoes.uglyFilter;
-				PRODUCT_NAME = "Ugly Filter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knsolucoes.tinderClone;
+				PRODUCT_NAME = "Tinder Clone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
